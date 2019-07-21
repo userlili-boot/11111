@@ -6,11 +6,11 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @EnableEurekaServer
 @SpringBootApplication
-public class Starter {
+public class DiscoveryStarter {
 
     public static void main(String[] args) {
         System.out.println("----------------spring boot start-------------------");
-        SpringApplication.run(Starter.class, args);
+        SpringApplication.run(DiscoveryStarter.class, args);
         System.out.println("----------------spring boot end-------------------");
     }
 
